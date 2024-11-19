@@ -11,9 +11,9 @@
 ## Live Demo 🚀  
 Explore the hosted version of this project on Hugging Face Spaces:  
 
-👉 [![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/MohammedNasser/Arabic-PDF-Chat)  
+👉 [![HF Space](https://img.shields.io/badge/Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/MohammedNasser/Arabic-PDF-Chat)  
 
-![Arabic Chat with PDF Screenshot](assets/demo_screenshot.png)
+![Arabic Chat with PDF Screenshot](assets/archat_screenshot.png)
 
 Upload an Arabic PDF and start chatting in seconds! 💬📚  
 
