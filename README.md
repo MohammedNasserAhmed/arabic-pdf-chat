@@ -1,10 +1,21 @@
 # Arabic Chat with PDF 📚💬  
 [![MIT License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)  
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/)  
-[![Gradio](https://img.shields.io/badge/Built_with-Gradio-blueviolet)](https://gradio.app/)
+[![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/MohammedNasser/Arabic-PDF-Chat)
 
 ## About 📖  
 **Arabic Chat with PDF** is an innovative tool designed to enable users to interactively query Arabic PDF documents. Powered by state-of-the-art language models and document processing libraries, this application extracts, processes, and retrieves meaningful insights from Arabic text documents. Users can ask questions in Arabic, and the system responds in a professional tone, making this an essential tool for Arabic language researchers, educators, and professionals.  
+
+---
+
+## Live Demo 🚀  
+Explore the hosted version of this project on Hugging Face Spaces:  
+
+👉 [![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/MohammedNasser/Arabic-PDF-Chat)  
+
+![Arabic Chat with PDF Screenshot](assets/demo_screenshot.png)
+
+Upload an Arabic PDF and start chatting in seconds! 💬📚  
 
 ---
 
