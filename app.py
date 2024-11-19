@@ -86,103 +86,6 @@ def create_chain(vectorstore):
     return chain
 
 
-    
-custom_css = """
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-
-body {
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    background: linear-gradient(135deg, #799351 0%, #A67B5B 100%);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.gradio-container {
-    direction: rtl;
-    font-family: 'Noto Kufi Arabic', sans-serif;
-    font-size: 16px;
-    max-width: 800px !important;
-    margin: auto !important;
-    
-    border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 20px;
-}
-
-
-.gr-textbox input, .gr-textbox textarea {
-    text-align: right !important;  /* Align text to the right */
-    direction: rtl !important;     /* Set RTL text direction */
-    font-family: 'Cairo', sans-serif !important;
-}
-
-
-
-.gr-file, .gr-audio {
-    text-align: right !important;  /* Align text to the right */
-    direction: rtl !important;     /* Set RTL text direction */
-}
-
-label {
-    font-size: 14px !important;
-    color: #000000 !important;
-    background-color: #EEEEEE;
-}
-
-
-.arabic-chatbox .message.user {
-    font-family: 'Cairo', sans-serif !important;
-    background-color: #FFFBE6; 
-}
-
-.arabic-chatbox .message.bot {
-    font-family: 'Cairo', sans-serif !important;
-    background-color: #E7FBE6; 
-}
-
-#custom-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30px;  /* Set custom width */
-    height: 20px; /* Set custom height */
-}
-
-.custom-submit-button {
-    background-color: #E68369 !important;
-    border: none !important;
-    border-radius: 5px !important;
-    padding: 10px 20px !important;
-    font-size: 16px !important;
-    cursor: pointer !important;
-}
-
-.custom-submit-button:hover {
-    background-color: white !important;
-    color: #E6B9A6 !important;
-}
-
-#clear_btn {
-    background-color: #698474;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#clear_btn:hover {
-    background-color: white;
-    color: #698474;
-}
-
-"""
-
 # Function to check if the file is a valid PDF in Arabic and less than 10MB
 def validate_pdf(pdf):
     if pdf is None:
@@ -251,7 +154,7 @@ def chat(user_input):
     return gr.update(value=''), history_display, audio_file
 
 image_path = "logo.png"
-with gr.Blocks(css=custom_css) as demo:
+with gr.Blocks(css=styles.css) as demo:
     with gr.Row():
         gr.Image(image_path, show_fullscreen_button=False, show_download_button=False, 
                  show_share_button=False, show_label=False, label='', container=True, height=50, width=50)
