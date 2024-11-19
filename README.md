@@ -1,5 +1,5 @@
 # Arabic Chat with PDF 📚💬  
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![MIT License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)  
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/)  
 [![Gradio](https://img.shields.io/badge/Built_with-Gradio-blueviolet)](https://gradio.app/)
 
@@ -10,7 +10,7 @@
 
 ## Features ✨  
 - **Seamless PDF Integration**: Upload Arabic PDFs under 10 MB, and start chatting.  
-- **Advanced Text Recognition**: Utilizes OCR for Arabic text extraction from scanned PDFs.  
+- **Advanced Text Recognition**: Utilizes OCR for Arabic text extraction from searchable PDFs.  
 - **Conversational Interface**: Interact via a chatbot with RTL (Right-To-Left) support for natural Arabic conversation.  
 - **Multilingual Embeddings**: Employs multilingual embeddings for precise text analysis.  
 - **Text-to-Speech**: Outputs audio responses in Arabic for accessibility.  
@@ -22,7 +22,7 @@
 - **Python Libraries**:  
   - [Gradio](https://gradio.app/): User-friendly UI for interaction.  
   - [PyPDF2](https://pypi.org/project/PyPDF2/): PDF text extraction.  
-  - [pytesseract](https://github.com/tesseract-ocr/tesseract): OCR for scanned PDFs.  
+  - [pytesseract](https://github.com/tesseract-ocr/tesseract): OCR for PDFs.  
   - [LangChain](https://github.com/hwchase17/langchain): Framework for conversational AI with retrieval-based querying.  
   - [gTTS](https://github.com/pndurette/gTTS): Arabic text-to-speech functionality.  
 - **Machine Learning Models**:  
@@ -45,7 +45,7 @@ Ensure you have:
 ### Installation ⚙️  
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-repo/arabic-chat-with-pdf.git
+   git clone https://github.com/your-repo/arabicPdfChat.git
    cd arabic-chat-with-pdf
    ```  
 2. **Install Dependencies**:  
