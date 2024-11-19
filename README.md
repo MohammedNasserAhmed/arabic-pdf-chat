@@ -87,9 +87,9 @@ The system follows a structured **ETL pipeline**:
 ---
 
 ## Author 🖋️  
-👤 **Your Name**  
-🔗 [GitHub Profile](https://github.com/your-github)  
-🔗 [LinkedIn](https://linkedin.com/in/your-linkedin)  
+👤 **M. N. Gaber**  
+🔗 [GitHub Profile](https://github.com/MohammedNasserAhmed)  
+🔗 [LinkedIn](https://linkedin.com/in/m-n-g)  
 
 ---
 
@@ -109,7 +109,7 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ---
 
 ## Future Plans 🛠️  
-- Add support for other languages.  
+- Add support for scanned and handwriting docs.  
 - Improve OCR accuracy for complex layouts.  
 - Enhance conversational capabilities with additional LLM models.  
 
