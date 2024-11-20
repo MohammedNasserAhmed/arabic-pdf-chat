@@ -1,4 +1,4 @@
-# Arabic Chat with PDF 📚💬  
+# Arabic PDF Chat 📚💬  
 [![MIT License](https://img.shields.io/badge/License-Apache-blue.svg)](LICENSE)  
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/)  
 [![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-orange)](https://huggingface.co/spaces/MohammedNasser/Arabic-PDF-Chat)
@@ -56,7 +56,7 @@ Ensure you have:
 ### Installation ⚙️  
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-repo/arabicPdfChat.git
+   git clone https://github.com/your-repo/arabic-pdf-chat.git
    cd arabic-chat-with-pdf
    ```  
 2. **Install Dependencies**:  
